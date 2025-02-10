@@ -1,0 +1,99 @@
+Highly correlated features (|correlation| > 0.9):
+ Flow Duration ↔ Fwd IAT Total: 1.00
+ Total Fwd Packets ↔  Total Backward Packets: 1.00
+ Total Fwd Packets ↔  Total Length of Bwd Packets: 1.00
+ Total Fwd Packets ↔  Fwd Header Length: 1.00
+ Total Fwd Packets ↔  Bwd Header Length: 1.00
+ Total Fwd Packets ↔  Fwd Header Length.1: 1.00
+ Total Fwd Packets ↔  Subflow Bwd Packets: 1.00
+ Total Fwd Packets ↔  Subflow Bwd Bytes: 1.00
+ Total Fwd Packets ↔  act_data_pkt_fwd: 1.00
+ Total Backward Packets ↔  Total Length of Bwd Packets: 0.99
+ Total Backward Packets ↔  Fwd Header Length: 1.00
+ Total Backward Packets ↔  Bwd Header Length: 1.00
+ Total Backward Packets ↔  Fwd Header Length.1: 1.00
+ Total Backward Packets ↔ Subflow Fwd Packets: 1.00
+ Total Backward Packets ↔  Subflow Bwd Bytes: 0.99
+ Total Backward Packets ↔  act_data_pkt_fwd: 1.00
+ Total Length of Bwd Packets ↔  Fwd Header Length: 0.99
+ Total Length of Bwd Packets ↔  Bwd Header Length: 0.99
+ Total Length of Bwd Packets ↔  Fwd Header Length.1: 0.99
+ Total Length of Bwd Packets ↔ Subflow Fwd Packets: 1.00
+ Total Length of Bwd Packets ↔  Subflow Bwd Packets: 0.99
+ Total Length of Bwd Packets ↔  Subflow Bwd Bytes: 1.00
+ Total Length of Bwd Packets ↔  act_data_pkt_fwd: 1.00
+ Fwd Packet Length Max ↔  Fwd Packet Length Std: 0.96
+Bwd Packet Length Max ↔  Bwd Packet Length Mean: 0.96
+Bwd Packet Length Max ↔  Bwd Packet Length Std: 0.99
+Bwd Packet Length Max ↔  Max Packet Length: 0.98
+Bwd Packet Length Max ↔  Packet Length Mean: 0.91
+Bwd Packet Length Max ↔  Packet Length Std: 0.97
+Bwd Packet Length Max ↔  Packet Length Variance: 0.93
+Bwd Packet Length Max ↔  Average Packet Size: 0.90
+Bwd Packet Length Max ↔  Avg Bwd Segment Size: 0.96
+ Bwd Packet Length Mean ↔  Bwd Packet Length Std: 0.95
+ Bwd Packet Length Mean ↔  Max Packet Length: 0.94
+ Bwd Packet Length Mean ↔  Packet Length Mean: 0.95
+ Bwd Packet Length Mean ↔  Packet Length Std: 0.96
+ Bwd Packet Length Mean ↔  Average Packet Size: 0.94
+ Bwd Packet Length Std ↔  Max Packet Length: 0.97
+ Bwd Packet Length Std ↔  Packet Length Std: 0.97
+ Bwd Packet Length Std ↔  Packet Length Variance: 0.95
+ Bwd Packet Length Std ↔  Avg Bwd Segment Size: 0.95
+ Flow Packets/s ↔ Fwd Packets/s: 0.99
+ Flow IAT Mean ↔  Fwd IAT Mean: 0.90
+ Flow IAT Std ↔  Flow IAT Max: 0.97
+ Flow IAT Std ↔  Fwd IAT Std: 0.91
+ Flow IAT Std ↔  Fwd IAT Max: 0.96
+ Flow IAT Std ↔ Idle Mean: 0.96
+ Flow IAT Std ↔  Idle Max: 0.96
+ Flow IAT Std ↔  Idle Min: 0.95
+ Flow IAT Max ↔  Fwd IAT Std: 0.96
+ Flow IAT Max ↔  Fwd IAT Max: 1.00
+ Flow IAT Max ↔ Idle Mean: 0.99
+ Flow IAT Max ↔  Idle Max: 1.00
+ Flow IAT Max ↔  Idle Min: 0.98
+ Fwd IAT Std ↔  Fwd IAT Max: 0.96
+ Fwd IAT Std ↔ Idle Mean: 0.96
+ Fwd IAT Std ↔  Idle Max: 0.96
+ Fwd IAT Std ↔  Idle Min: 0.95
+ Fwd IAT Max ↔ Idle Mean: 0.99
+ Fwd IAT Max ↔  Idle Max: 1.00
+ Fwd IAT Max ↔  Idle Min: 0.98
+ Bwd IAT Std ↔  Bwd IAT Max: 0.94
+ Fwd Header Length ↔  Bwd Header Length: 1.00
+ Fwd Header Length ↔ Subflow Fwd Packets: 1.00
+ Fwd Header Length ↔  Subflow Bwd Packets: 1.00
+ Fwd Header Length ↔  Subflow Bwd Bytes: 0.99
+ Fwd Header Length ↔  act_data_pkt_fwd: 1.00
+ Bwd Header Length ↔  Fwd Header Length.1: 1.00
+ Bwd Header Length ↔ Subflow Fwd Packets: 1.00
+ Bwd Header Length ↔  Subflow Bwd Packets: 1.00
+ Bwd Header Length ↔  Subflow Bwd Bytes: 0.99
+ Bwd Header Length ↔  act_data_pkt_fwd: 1.00
+ Max Packet Length ↔  Packet Length Mean: 0.93
+ Max Packet Length ↔  Packet Length Std: 0.99
+ Max Packet Length ↔  Packet Length Variance: 0.94
+ Max Packet Length ↔  Average Packet Size: 0.92
+ Max Packet Length ↔  Avg Bwd Segment Size: 0.94
+ Packet Length Mean ↔  Packet Length Std: 0.95
+ Packet Length Mean ↔  Average Packet Size: 1.00
+ Packet Length Mean ↔  Avg Bwd Segment Size: 0.95
+ Packet Length Std ↔  Packet Length Variance: 0.95
+ Packet Length Std ↔  Average Packet Size: 0.95
+ Packet Length Std ↔  Avg Bwd Segment Size: 0.96
+ RST Flag Count ↔  ECE Flag Count: 1.00
+ Average Packet Size ↔  Avg Bwd Segment Size: 0.94
+ Fwd Header Length.1 ↔ Subflow Fwd Packets: 1.00
+ Fwd Header Length.1 ↔  Subflow Bwd Packets: 1.00
+ Fwd Header Length.1 ↔  Subflow Bwd Bytes: 0.99
+ Fwd Header Length.1 ↔  act_data_pkt_fwd: 1.00
+Subflow Fwd Packets ↔  Subflow Bwd Packets: 1.00
+Subflow Fwd Packets ↔  Subflow Bwd Bytes: 1.00
+Subflow Fwd Packets ↔  act_data_pkt_fwd: 1.00
+ Subflow Bwd Packets ↔  Subflow Bwd Bytes: 0.99
+ Subflow Bwd Packets ↔  act_data_pkt_fwd: 1.00
+ Subflow Bwd Bytes ↔  act_data_pkt_fwd: 1.00
+Idle Mean ↔  Idle Max: 1.00
+Idle Mean ↔  Idle Min: 1.00
+ Idle Max ↔  Idle Min: 0.98

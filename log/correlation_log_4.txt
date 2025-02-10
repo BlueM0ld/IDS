@@ -1,0 +1,56 @@
+Highly correlated features (|correlation| > 0.9):
+ Flow Duration ↔ Fwd IAT Total: 1.00
+ Flow Duration ↔ Bwd IAT Total: 0.97
+ Total Fwd Packets ↔  Total Backward Packets: 1.00
+ Total Fwd Packets ↔  Total Length of Bwd Packets: 1.00
+ Total Fwd Packets ↔  Subflow Bwd Packets: 1.00
+ Total Fwd Packets ↔  Subflow Bwd Bytes: 1.00
+ Total Fwd Packets ↔  act_data_pkt_fwd: 1.00
+ Total Backward Packets ↔  Total Length of Bwd Packets: 1.00
+ Total Backward Packets ↔ Subflow Fwd Packets: 1.00
+ Total Backward Packets ↔  Subflow Bwd Bytes: 1.00
+ Total Backward Packets ↔  act_data_pkt_fwd: 1.00
+ Total Length of Bwd Packets ↔ Subflow Fwd Packets: 1.00
+ Total Length of Bwd Packets ↔  Subflow Bwd Packets: 1.00
+ Total Length of Bwd Packets ↔  act_data_pkt_fwd: 1.00
+ Fwd Packet Length Max ↔  Fwd Packet Length Std: 0.94
+Bwd Packet Length Max ↔  Bwd Packet Length Std: 0.94
+Bwd Packet Length Max ↔  Max Packet Length: 0.95
+Bwd Packet Length Max ↔  Packet Length Std: 0.93
+ Bwd Packet Length Mean ↔  Packet Length Mean: 0.93
+ Bwd Packet Length Mean ↔  Average Packet Size: 0.91
+ Bwd Packet Length Std ↔  Packet Length Std: 0.93
+ Flow Packets/s ↔ Fwd Packets/s: 0.99
+ Flow IAT Std ↔  Bwd IAT Mean: 0.93
+ Flow IAT Std ↔ Idle Mean: 0.90
+ Flow IAT Max ↔  Fwd IAT Max: 0.99
+ Flow IAT Max ↔  Bwd IAT Max: 0.90
+ Flow IAT Max ↔ Idle Mean: 0.93
+ Flow IAT Max ↔  Idle Max: 0.94
+ Flow IAT Max ↔  Idle Min: 0.91
+Fwd IAT Total ↔ Bwd IAT Total: 0.97
+ Fwd IAT Mean ↔  Fwd IAT Min: 0.97
+ Fwd IAT Max ↔ Idle Mean: 0.93
+ Fwd IAT Max ↔  Idle Max: 0.94
+ Fwd IAT Max ↔  Idle Min: 0.91
+ Bwd IAT Mean ↔  Bwd IAT Min: 0.97
+ Bwd IAT Max ↔ Idle Mean: 0.94
+ Bwd IAT Max ↔  Idle Max: 0.95
+ Bwd IAT Max ↔  Idle Min: 0.92
+ Max Packet Length ↔  Packet Length Std: 0.96
+ Max Packet Length ↔  Packet Length Variance: 0.91
+ Packet Length Mean ↔  Packet Length Std: 0.91
+ Packet Length Mean ↔  Average Packet Size: 0.99
+ Packet Length Mean ↔  Avg Bwd Segment Size: 0.93
+ Packet Length Std ↔  Packet Length Variance: 0.91
+ RST Flag Count ↔  ECE Flag Count: 0.99
+ Average Packet Size ↔  Avg Bwd Segment Size: 0.91
+Subflow Fwd Packets ↔  Subflow Bwd Packets: 1.00
+Subflow Fwd Packets ↔  Subflow Bwd Bytes: 1.00
+Subflow Fwd Packets ↔  act_data_pkt_fwd: 1.00
+ Subflow Bwd Packets ↔  Subflow Bwd Bytes: 1.00
+ Subflow Bwd Packets ↔  act_data_pkt_fwd: 1.00
+ Subflow Bwd Bytes ↔  act_data_pkt_fwd: 1.00
+Idle Mean ↔  Idle Max: 0.99
+Idle Mean ↔  Idle Min: 0.99
+ Idle Max ↔  Idle Min: 0.97
